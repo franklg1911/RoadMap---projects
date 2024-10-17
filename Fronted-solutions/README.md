@@ -19,8 +19,12 @@ Cada proyecto incluye un enfoque práctico y sencillo para aprender y aplicar lo
   - **JavaScript**: Lógica y funcionalidades interactivas básicas para mejorar la experiencia del usuario.
 
 ### Proyectos HTML
-  1. **Single page cv**: Este proyecto consiste en la creación de un currículum estructurado en una sola página, usando únicamente HTML.
-  2. **Basic HTML Website**: Este proyecto se centra en la creación de un portafolio web con direccionamiento a diferentes páginas mediante el navegador.
+  1. **Single page cv**:
+     -  **Descripción**: Este proyecto consiste en la creación de un currículum estructurado en una sola página, usando únicamente HTML.
+     -  **Link**: [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/single-page-cv)
+  3. **Basic HTML Website**:
+     -  **Descripción**: Este proyecto se centra en la creación de un portafolio web con direccionamiento a diferentes páginas mediante el navegador.
+     -  **Link**: [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/basic-html-website)
 
      
 
