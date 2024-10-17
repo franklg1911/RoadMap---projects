@@ -8,5 +8,5 @@ Cada proyecto está diseñado para abordar aspectos claves del desarrollo, desde
 ### Estructura del proyecto
 
 Este repositorio se encuentra organizado por secciones para facilitar la navegación entre los diferentes tipos de proyectos:
- - **Frontend**: Proyectos centrados en la creación de interfaces de usuario con tecnologías como **HTML - CSS - JavaScript**.
+ - **Frontend solutions**: Proyectos centrados en la creación de interfaces de usuario con tecnologías como **HTML - CSS - JavaScript**.
 
