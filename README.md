@@ -3,10 +3,21 @@ En este repositorio contiene una colección completa de proyectos desarrollados 
 Cada proyecto está diseñado para abordar aspectos claves del desarrollo, desde interfaces de usuario hasta la lógica del servidor.
 
 ### Tabla de contenido
-- [Estructura del repositorio](#Estructura-del-repositorio)
+- [Fronted - solutions](#Frontend-solutions)
 
-### Estructura del proyecto
+### Frontend solutions
 
-Este repositorio se encuentra organizado por secciones para facilitar la navegación entre los diferentes tipos de proyectos:
- - **Frontend solutions**: Proyectos centrados en la creación de interfaces de usuario con tecnologías como **HTML - CSS - JavaScript**.
+Proyectos centrados en la creación de interfaces de usuario con tecnologías como **HTML - CSS - JavaScript**.
+
+1. **Proyectos HTML**
+  
+   **a. Single Cv Page:**
+    - **Descripción**: Este proyecto consiste en la creación de un currículum estructurado en una sola página, usando únicamente HTML.
+    - **Link**: [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/single-page-cv)
+
+   **b. Basic HTML Website:**
+    - **Descripción**: Este proyecto se centra en la creación de un portafolio web con direccionamiento a diferentes páginas mediante el navegador.
+    - **Link**: [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/basic-html-website)
+   
+
 
