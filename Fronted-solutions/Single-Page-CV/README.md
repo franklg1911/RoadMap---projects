@@ -24,4 +24,4 @@ Este proyecto se centra en la creación de una sola página de HTML enfocado en 
 
 ### Link  
 Accede a la url del proyecto:
-  - https://roadmap.sh/projects/single-page-cv
+  - [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/single-page-cv)
