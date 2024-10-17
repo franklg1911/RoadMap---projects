@@ -26,6 +26,9 @@ Cada proyecto incluye un enfoque práctico y sencillo para aprender y aplicar lo
        - Uso de etiquetas semánticas para una mejor accesibilidad.
        - Uso de metaetiquetas SEO en la sección principal.
        - Uso de un favicon unido en la sección de "head".
+
+     **Link del proyecto**:
+        - https://roadmap.sh/projects/single-page-cv
      
 
      
