@@ -82,6 +82,8 @@
     margin: 1rem 0;
 }
 
+
+
 /* Experience */
 
 .experience__article {
@@ -149,6 +151,67 @@
 .reviews__teacher {
     font-weight: 400;
 }
+
+
+/* Article */
+
+.articles__list {
+    list-style: none;
+}
+
+.articles__item {
+    border-bottom: 2px solid black;
+    width: 70%;
+    margin: 1rem 0;
+}
+
+/* Contact */
+
+.section__form {
+    margin: 1rem 0;
+}
+
+.section__group {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__input {
+    padding: .5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: .5rem 0;
+    outline: none;
+}
+
+.section__textarea {
+    padding: .5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: .5rem 0;
+    outline: none;
+    resize: none;
+}
+
+.section__button {
+    width: 100%;
+    padding: .5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: .5rem 0;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+
+.section__button:hover {
+    background-color: rgb(46, 43, 43);
+}
+
+
+
 
 /* FOOTER */
 
