@@ -24,10 +24,10 @@ Este proyecto se centra en estructurar de manera básica un portafolio con difer
 
 ### Vista previa
 
-![{DFE42D8A-2BCD-48B6-89E8-DC959E527FE0}](https://github.com/user-attachments/assets/adf657e3-7894-4123-805f-1741b3d4a8e6)
+![Captura de pantalla 2024-10-27 151855](https://github.com/user-attachments/assets/a3a4c7d9-f0e8-4a47-9718-e298d5391977)
 
 ### Link
 
 Accede a la url del proyecto:
 
-- [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/basic-html-website)
+- [[https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/basic-html-website)](https://roadmap.sh/projects/portfolio-website)
