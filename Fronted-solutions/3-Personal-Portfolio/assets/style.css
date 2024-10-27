@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --padding-container: 30px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: min(90%, 1200px);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* HEADER */
+
+.header {
+    border-bottom: 2px solid black;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    font-weight: 500;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+}
+
+.hero__main {
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.hero__title {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.hero__description {
+    font-size: 0.9rem;
+}
+
+/* MAIN */
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: var(--padding-container);
+}
+
+.section__title {
+    font-weight: 500;
+}
+
+/* Projects */
+
+.projects__list {
+    list-style: none;
+}
+
+.projects__item {
+    border-bottom: 2px solid black;
+    width: 70%;
+    margin: 1rem 0;
+}
+
+/* Experience */
+
+.experience__article {
+    margin: 2rem 0;
+    border-bottom: 2px solid black;
+    width: 70%;
+}
+
+.experience__title {
+    margin: .5rem 0;
+}
+
+.experience__paragraph {
+    margin: .5rem 0;
+}
+
+.experience__link {
+    text-decoration: none;
+    color: rgb(34, 80, 165);
+}
+
+/* Education */
+
+.education {
+    border-bottom: 2px solid black;
+}
+
+.section__title--margin {
+   margin-bottom: 1rem;
+}
+
+.education__title {
+    margin: 1.5rem 0;
+}
+
+.education__list {
+    margin: 0 1rem;
+}
+
+/* Reviews */
+
+.reviews {
+    padding: var(--padding-container);
+}
+
+.reviews__container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.reviews__card {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 2.5rem;
+    text-align: justify;
+}
+
+.reviews__paragraph {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.reviews__teacher {
+    font-weight: 400;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: var(--padding-container);
+    text-align: center;
+    font-weight: 700;
+}
+
+

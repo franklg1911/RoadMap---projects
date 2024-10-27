@@ -3,7 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>WebSite</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <!-- Navegador -->
+        <nav class="nav">
+          <div class="nav__logo">
+            <h1 class="nav__title">Frank Eduardo</h1>
+          </div>
+
+          <ul class="nav__menu">
+            <li><a href="index.html" class="nav__link">Home</a></li>
+            <li><a href="projects.html" class="nav__link"> Projects</a></li>
+            <li><a href="articles.html" class="nav__link"> Articles</a></li>
+            <li><a href="contact.html" class="nav__link"> Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Hero main -->
+        <section class="hero__main">
+          <h1 class="hero__title">Frontend Developer</h1>
+          <p class="hero__description">
+            Solo HTML con el diseño apropiado, sin estilo.
+          </p>
+        </section>
+      </header>
+
+      <main class="main">
+        <!-- Sección de proyectos -->
+        <section class="projects">
+          <h3 class="section__title">Projects</h3>
+
+          <ul class="projects__list">
+            <li class="projects__item">HTML Only Portafolio</li>
+            <li class="projects__item">Calculator</li>
+            <li class="projects__item">Quiz app</li>
+            <li class="projects__item">Countdown Timer</li>
+            <li class="projects__item">Product Upcoming Page</li>
+          </ul>
+        </section>
+
+        <!-- Sección de experiencia laboral -->
+        <section class="experience">
+          <h3 class="section__title">Work - Experience</h3>
+
+          <article class="experience__article">
+            <h4 class="experience__title">Roadmap.sh</h4>
+            <p class="experience__paragraph">
+              Solved all the frontend projects
+            </p>
+            <a href="#" class="experience__link">Visit my profile</a>
+          </article>
+          <article class="experience__article">
+            <h4 class="experience__title">OpenSource Work</h4>
+            <p class="experience__paragraph">
+              Contributed to 50 opensource projects. Made my own projects with
+              200 GitHub Stars
+            </p>
+            <a href="#" class="experience__link">Visit my Github Profile</a>
+          </article>
+        </section>
+
+        <!-- Sección de educación -->
+        <section class="education">
+          <h3 class="section__title section__title--margin">Education</h3>
+          <p class="education__paragraph">
+            Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30
+            sessions.
+          </p>
+          <h4 class="education__title">Courses I took:</h4>
+          <ul class="education__list">
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discreet Mathematics</li>
+          </ul>
+        </section>
+      </main>
+
+      <!-- Sección reviews -->
+      <aside class="reviews">
+        <h3 class="section__title section__title--margin">
+          Reviews from my Teachers
+        </h3>
+
+        <div class="reviews__container">
+          <!-- Card 1 -->
+          <div class="reviews__card">
+            <p class="reviews__paragraph">
+              John doe was a brilliant student; always stood out with his
+              assignments
+            </p>
+
+            <span class="reviews__teacher">Jane Doe Assistant Professor</span>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="reviews__card">
+            <p class="reviews__paragraph">
+              John doe was a brilliant student; always stood out with his
+              assignments
+            </p>
+
+            <span class="reviews__teacher">Jane Doe Assistant Professor</span>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="reviews__card">
+            <p class="reviews__paragraph">
+              John doe was a brilliant student; always stood out with his
+              assignments
+            </p>
+
+            <span class="reviews__teacher">Jane Doe Assistant Professor</span>
+          </div>
+        </div>
+      </aside>
+
+      <footer class="footer">
+        <p class="footer__copy">&copy; all rights reserverd 2025</p>
+      </footer>
+    </div>
+  </body>
 </html>
