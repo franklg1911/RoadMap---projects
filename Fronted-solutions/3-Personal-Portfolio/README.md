@@ -30,4 +30,4 @@ Este proyecto se centra en estructurar de manera básica un portafolio con difer
 
 Accede a la url del proyecto:
 
-- [[https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/basic-html-website)](https://roadmap.sh/projects/portfolio-website)
+- [https://roadmap.sh/projects/portfolio-website](https://roadmap.sh/projects/portfolio-website)
