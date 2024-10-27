@@ -210,9 +210,6 @@
     background-color: rgb(46, 43, 43);
 }
 
-
-
-
 /* FOOTER */
 
 .footer {
@@ -222,3 +219,71 @@
 }
 
 
+/* Responsive */
+
+@media (max-width: 768px) {
+    
+    /* Navegadores */
+    .nav {
+
+        flex-direction: column;
+        margin: 1.5rem 0rem;
+        height: 60px;
+    }
+
+    /* Main */
+
+    .main {
+        grid-template-columns: 1fr;
+    }
+
+    .section__title {
+        text-align: center;
+        font-weight: 500;
+    }
+
+    /* Projects */
+
+    .projects__list {
+        text-align: center;
+    }
+
+    .projects__item {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    /* Experience */
+
+    .experience__article {
+        margin: 2rem 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Education */
+
+    .education {
+        text-align: center;
+    }
+
+    .education__list {
+        list-style: none;
+    }
+
+    /* Reviews */
+
+    .reviews__container {
+        flex-direction: column;
+    }
+
+    /* Articles */
+
+    .articles__list {
+        text-align: center;
+    }
+
+    .articles__item {
+        width: 100%;
+    }
+}
