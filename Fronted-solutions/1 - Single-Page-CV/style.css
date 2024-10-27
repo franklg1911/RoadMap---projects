@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merge Pro", sans-serif;
+}
+
+.cv__container {
+    margin: 1rem;
+    border: 2px solid black;
+}
+
+.cv__content {
+    margin: 5rem 3.5rem;
+}
+
+.cv__line {
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 1rem;
+}
+
+.cv__hero-title {
+    margin-bottom: 1rem;
+}
+
+.cv__title {
+    color: chocolate;
+}
+
+.cv__hero-specialty {
+    margin-bottom: 1rem;
+}
+
+.cv__data {
+    margin-bottom: 1rem;
+}
+
+.cv__skills-title {
+    margin-bottom: .8rem;
+}
+
+.cv__skills-paragraph {
+    margin-bottom: .8rem;
+}
+
+.cv__education-title {
+    margin-bottom: .8rem;
+}
+
+.cv__eduaction-list {
+    padding: 1rem;
+}
+
+.cv__experiencie-title {
+    margin-bottom: .8rem;
+}
+
+.cv__experiencie-list {
+    padding: 1rem;
+}
+
+.cv__footer-title {
+    margin-bottom: .8rem;
+}
+
+.cv__social-link {
+    text-decoration: none;
+    color: black;
+}
+
+.social__icon {
+    font-size: 2rem;
+    margin-right: .5rem;
+}
