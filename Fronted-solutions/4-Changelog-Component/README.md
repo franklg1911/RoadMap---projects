@@ -22,7 +22,8 @@ Este proyecto se centra en estructurar un componente en `HTML - CSS` para un sit
 
 ### Vista previa
 
-![Captura de pantalla 2024-10-27 151855](https://github.com/user-attachments/assets/a3a4c7d9-f0e8-4a47-9718-e298d5391977)
+![{9730C4BF-D8A8-4547-96AA-B1472B6CBAC3}](https://github.com/user-attachments/assets/37820b42-f088-4cb9-bbdb-f24e27a5640b)
+
 
 ### Link
 
