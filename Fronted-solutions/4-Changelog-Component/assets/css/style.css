@@ -1,0 +1,152 @@
+/* Poppins - Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Representa el 100% de la altura */
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.changelog__container {
+    background-color: #fff;
+    border-radius: 1.5rem;
+    border: 2px solid #000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+
+    /* Limita el ancho máximo del contenedor a 600px para mantenerlo compacto y centrado en pantallas grandes. */
+    max-width: 600px;
+
+    /* Le permite al contenedor ocupar el 100% del ancho disponible dentro de su contenedor padre,
+    lo cual es útil para adaptarse a pantallas más pequeñas. */
+    width: 100%;
+    text-align: center;
+}
+
+.changelog__title {
+    font-size: 2.25rem;
+    margin-bottom: 0.6rem;
+}
+
+.changelog__subtitle {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 2.5rem;
+}
+
+.changelog__timeline {
+    margin: 0 auto;
+}
+
+.timeline__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .9rem 0;
+}
+
+.timeline__date {
+    color: #888;
+    font-size: .9rem;
+
+    /* Permite que el elemento se expanda para ocupar el espacio disponible dentro de un contenedor flexbox. Este valor hace que la fecha sea flexible,
+    lo que significa que puede crecer o encogerse según el espacio disponible en el contenedor padre. */
+    flex: 1;
+    text-align: right;
+    padding-right: 1.25rem;
+}
+
+.timeline__circle {
+
+    /* Establece el elemento como un bloque en línea,
+    lo que permite que se comporte como un bloque (puede tener ancho y alto) mientras se alinea junto a otros elementos en la misma línea */
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 1.25rem;
+
+    /* Establece la posición del elemento como relativa,
+    lo que significa que se puede mover respecto a su posición original utilizando propiedades de posicionamiento como top,
+    bottom,
+    left o right. Esto puede ser útil si se desea superponer otros elementos o aplicar efectos de diseño adicionales. */
+    position: relative;
+}
+
+.timeline__circle::before {
+    content: "";
+
+    /* Establece que el pseudoelemento se posicionará de manera absoluta respecto a su elemento padre,
+    que es .timeline__circle. Esto significa que se ubicará en relación con el círculo. */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    /* Utiliza la transformación para mover el pseudoelemento hacia arriba y hacia la izquierda en un 50% de su propio tamaño,
+    asegurando que esté perfectamente centrado en el círculo. */
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 6rem;
+    background-color: black;
+}
+
+.timeline__circle::after {
+    content: "";
+
+    /* Establece que el pseudoelemento se posicionará de manera absoluta respecto a su elemento padre. */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+
+    /* Utiliza la transformación para mover el pseudoelemento hacia la izquierda en un 50% de su propio tamaño,
+    asegurando que esté perfectamente centrado bajo el círculo. */
+    transform: translateX(-50%);
+    width: 2px;
+    height: 3rem;
+    background-color: black;
+}
+
+.timeline__description {
+
+    /* Esta propiedad indica que el elemento ocupará el doble de espacio en comparación con otros elementos dentro de un contenedor flex. Por ejemplo,
+    si hay un círculo y esta descripción,
+    la descripción se expandirá para ocupar el espacio adicional disponible.  */
+    flex: 2;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
+.timeline__footer {
+    margin-top: 3rem;
+}
+
+.timeline__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.timeline__button {
+    background-color: #000;
+    padding: .75rem 1.5rem;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.timeline__button:hover {
+    background-color: #333;
+}
