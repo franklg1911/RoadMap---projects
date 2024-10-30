@@ -9,7 +9,7 @@ Cada proyecto está diseñado para abordar aspectos claves del desarrollo, desde
 
 ### Frontend solutions
 
-Proyectos centrados en la creación de interfaces de usuario con tecnologías como `HTML, CSS, JavaScript`
+Proyectos centrados en la creación de interfaces de usuario con tecnologías como `HTML, CSS, JavaScript`.
 
 1. **Proyectos HTML**
 

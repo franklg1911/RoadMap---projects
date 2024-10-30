@@ -1,6 +1,6 @@
 # CHANGELOG COMPONENT
 
-Este proyecto se centra en estructurar de manera básica un portafolio con diferentes secciones de **HTML** como proyectos, artículos, contactos, etc. Asi mismo, permite la navegación a diferentes páginas mediante el navegador. Es un proyecto estilizado con técnicas de CSS como Flexbox, consulta de medios y modelos de caja, asimismo, se utilizo la fuente **"Roboto"** de GoogleFonts para mejorar la tipografía del sitio web.
+Este proyecto se centra en estructurar un componente en `HTML - CSS` para un sitio web que muestre un registro de cambios con fecha y una descripción.
 
 ### Tabla de contenido
 
@@ -11,11 +11,9 @@ Este proyecto se centra en estructurar de manera básica un portafolio con difer
 
 ### Características
 
-- Secciones claras como inicio, proyectos, artículos y contactos.
-- Múltiples páginas con una barra de navegación.
+- Posicionamiento correcto y diseño atractivo en CSS.
 - Utilización de técnicas como Flexbox , consulta de medios y modelos de caja.
 - Importación de tipografías de google fonts.
-- Integración de un formulario de contactos.
 
 ### Tecnologías utilizadas
 
@@ -30,4 +28,4 @@ Este proyecto se centra en estructurar de manera básica un portafolio con difer
 
 Accede a la url del proyecto:
 
-- [https://roadmap.sh/projects/portfolio-website](https://roadmap.sh/projects/portfolio-website)
+- [https://roadmap.sh/projects/changelog-component](https://roadmap.sh/projects/changelog-component)
