@@ -28,4 +28,4 @@ Este proyecto se centra en la creación de un calendario mostrando un selecciona
 
 Accede a la url del proyecto:
 
-- [https://roadmap.sh/projects/testimonial-cards](https://roadmap.sh/projects/testimonial-cards)
+- [https://roadmap.sh/projects/datepicker-ui](https://roadmap.sh/projects/datepicker-ui)
