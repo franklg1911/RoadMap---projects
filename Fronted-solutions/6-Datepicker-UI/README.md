@@ -22,7 +22,8 @@ Este proyecto se centra en la creación de un calendario mostrando un selecciona
 
 ### Vista previa
 
-![{9730C4BF-D8A8-4547-96AA-B1472B6CBAC3}](https://github.com/user-attachments/assets/37820b42-f088-4cb9-bbdb-f24e27a5640b)
+![Captura de pantalla 2024-11-01 173031](https://github.com/user-attachments/assets/e4da7093-02e7-4cff-b2f3-d0916dbf87fe)
+
 
 ### Link
 
