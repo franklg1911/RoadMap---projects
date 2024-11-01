@@ -15,7 +15,7 @@ Proyectos centrados en la creación de interfaces de usuario con tecnologías co
 
    **a. Single Cv Page:**
 
-   - **Descripción**: Este proyecto consiste en la creación de un currículum estructurado en una sola página, usando únicamente `HTML`.
+   - **Descripción**: Este proyecto consiste en la creación de un currículum estructurado en una sola página, usando únicamente **HTML**.
    - **Link**: [https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/single-page-cv)
 
    **b. Basic HTML Website:**
@@ -27,10 +27,15 @@ Proyectos centrados en la creación de interfaces de usuario con tecnologías co
 
    **a. Personal Portfolio:**
 
-   - **Descripción**: Este proyecto consiste en la estilización de un portafolio previamente creado. Para lograrlo, aplicamos técnicas avanzadas de `CSS`, como Flexbox, consultas de medios y modelos de caja. Además, utilizamos tipografías importadas y una paleta de colores cuidadosamente seleccionada.
+   - **Descripción**: Este proyecto consiste en la estilización de un portafolio previamente creado. Para lograrlo, aplicamos técnicas avanzadas de **CSS**, como Flexbox, consultas de medios y modelos de caja. Además, utilizamos tipografías importadas y una paleta de colores cuidadosamente seleccionada.
    - **Link**: [https://roadmap.sh/projects/portfolio-website](https://roadmap.sh/projects/portfolio-website)
 
    **b. Changelog Component:**
 
-   - **Descripción**: Este proyecto consiste en la creación de una lista de tareas con fecha y descripción detallada, donde se centra en usar correctamente el posicionamiento y diversas técnicas de `HTML - CSS`.
+   - **Descripción**: Este proyecto consiste en la creación de una lista de tareas con fecha y descripción detallada, donde se centra en usar correctamente el posicionamiento y diversas técnicas de **HTML y CSS**.
    - **Link**: [https://roadmap.sh/projects/changelog-component](https://roadmap.sh/projects/changelog-component)
+
+   **C. Testimonial Card:**
+
+   - **Descripción**: Este proyecto consiste en la creación de un conjunto de cartas con diferentes tamaños y estilos. Así mismo, se utilizan diversas técnicas para crear los componentes mostrados en el proyecto , se estructuró y se estilizo con **HTML y CSS**.
+   - **Link**: [https://roadmap.sh/projects/testimonial-cards](https://roadmap.sh/projects/testimonial-cards)

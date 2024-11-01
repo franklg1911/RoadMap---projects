@@ -1,6 +1,6 @@
-# CHANGELOG COMPONENT
+# TESTIMONIAL CARD
 
-Este proyecto se centra en estructurar un componente en **HTML y CSS** para un sitio web que muestre un registro de cambios con fecha y una descripción.
+Este proyecto se centra en la creación de diferentes cartas en **HTML y CSS** para utilizarlos en proyectos que requieran mostrar testimonios de clientes.
 
 ### Tabla de contenido
 
@@ -12,7 +12,7 @@ Este proyecto se centra en estructurar un componente en **HTML y CSS** para un s
 ### Características
 
 - Posicionamiento correcto y diseño atractivo en CSS.
-- Utilización de técnicas como Flexbox , consulta de medios y modelos de caja.
+- Utilización de técnicas como Flexbox y modelos de caja.
 - Importación de tipografías.
 
 ### Tecnologías utilizadas
@@ -28,4 +28,4 @@ Este proyecto se centra en estructurar un componente en **HTML y CSS** para un s
 
 Accede a la url del proyecto:
 
-- [https://roadmap.sh/projects/changelog-component](https://roadmap.sh/projects/changelog-component)
+- [https://roadmap.sh/projects/testimonial-cards](https://roadmap.sh/projects/testimonial-cards)
