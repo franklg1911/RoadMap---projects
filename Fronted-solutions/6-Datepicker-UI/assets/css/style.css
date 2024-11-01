@@ -1,0 +1,109 @@
+/* Google font - Monsterrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.datepicker {
+    position: relative;
+    display: inline-block;
+    margin: 1.25rem;
+}
+
+.datepicker__group {
+    display: flex;
+    align-items: center;
+    border: 2px solid #000;
+    border-radius: 2px;
+    padding: 5px;
+    width: 250px;
+}
+
+.datepicker__input {
+    border: none;
+    outline: none;
+
+    /* Le estás diciendo al navegador que ese elemento debe crecer para ocupar cualquier espacio disponible en el contenedor  */
+    flex-grow: 1;
+    padding: 5px;
+}
+
+/* ::-webkit-calendar-picker-indicator : Es un pseudo-elemento específico de WebKit (el motor usado por navegadores como Chrome y Safari). Se refiere específicamente al icono de calendario que aparece en los input de tipo date. Este pseudo-elemento solo afecta el aspecto visual del icono. */
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+
+.button__datepicker {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.calendar {
+    position: absolute;
+    top: 45px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.calendar__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.calendar__icono {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.calendar__body {
+    padding: 10px;
+}
+
+.calendar__days {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.calendar__days span {
+    width: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: #000;
+}
+
+.calendar__num {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.calendar__num span {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.calendar__num span:hover {
+    background-color: #eee;
+    border-radius: 50%;
+}
+

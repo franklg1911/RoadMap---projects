@@ -35,7 +35,12 @@ Proyectos centrados en la creación de interfaces de usuario con tecnologías co
    - **Descripción**: Este proyecto consiste en la creación de una lista de tareas con fecha y descripción detallada, donde se centra en usar correctamente el posicionamiento y diversas técnicas de **HTML y CSS**.
    - **Link**: [https://roadmap.sh/projects/changelog-component](https://roadmap.sh/projects/changelog-component)
 
-   **C. Testimonial Card:**
+   **c. Testimonial Card:**
 
    - **Descripción**: Este proyecto consiste en la creación de un conjunto de cartas con diferentes tamaños y estilos. Así mismo, se utilizan diversas técnicas para crear los componentes mostrados en el proyecto , se estructuró y se estilizo con **HTML y CSS**.
    - **Link**: [https://roadmap.sh/projects/testimonial-cards](https://roadmap.sh/projects/testimonial-cards)
+
+   **d. Datepicker UI:**
+
+   - **Descripción**: Este proyecto consiste en la creación de un selector de fechas interactivo creado con **HTML** y estilizado con **CSS**.
+   - **Link**: [https://roadmap.sh/projects/datepicker-ui](https://roadmap.sh/projects/datepicker-ui)

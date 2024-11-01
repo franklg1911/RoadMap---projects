@@ -1,6 +1,6 @@
-# TESTIMONIAL CARD
+# DATEPICKER UI
 
-Este proyecto se centra en la creación de diferentes cartas en **HTML y CSS** para utilizarlos en proyectos que requieran mostrar testimonios de clientes.
+Este proyecto se centra en la creación de un calendario mostrando un seleccionador de fechas y meses estilizado con diversas técnicas de **CSS**.
 
 ### Tabla de contenido
 
