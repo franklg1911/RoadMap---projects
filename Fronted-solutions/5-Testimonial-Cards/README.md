@@ -22,7 +22,7 @@ Este proyecto se centra en la creación de diferentes cartas en **HTML y CSS** p
 
 ### Vista previa
 
-![{9730C4BF-D8A8-4547-96AA-B1472B6CBAC3}](https://github.com/user-attachments/assets/37820b42-f088-4cb9-bbdb-f24e27a5640b)
+![{8F9337B2-3564-4138-8C9D-F94969D23C62}](https://github.com/user-attachments/assets/363dc5e1-2ab9-45d9-946f-2be5bd4b3de4)
 
 ### Link
 
