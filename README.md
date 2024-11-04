@@ -44,3 +44,8 @@ Proyectos centrados en la creación de interfaces de usuario con tecnologías co
 
    - **Descripción**: Este proyecto consiste en la creación de un selector de fechas interactivo creado con **HTML** y estilizado con **CSS**.
    - **Link**: [https://roadmap.sh/projects/datepicker-ui](https://roadmap.sh/projects/datepicker-ui)
+
+   **e. Accesible Form UI:**
+
+   - **Descripción**: Este proyecto consiste en la creación de un formulario con diversos tipos de input y una lista de tareas realizados con **HTML y CSS**.
+   - **Link**: [https://roadmap.sh/projects/accessible-form-ui](https://roadmap.sh/projects/accessible-form-ui)

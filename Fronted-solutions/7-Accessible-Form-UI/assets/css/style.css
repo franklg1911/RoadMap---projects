@@ -1,0 +1,152 @@
+/* Google Font - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    gap: 3rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.form__group {
+    margin: 1.25rem 0;
+}
+
+.form__label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.form__input {
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+input::placeholder {
+    color: #CED4DA;
+}
+
+.form__input--error {
+    border: 2px solid #E03131;
+    color: #E03131;
+}
+
+.form__error {
+    color: #E03131;
+    font-size: .9rem;
+    font-weight: 400;
+    margin-top: .25rem;
+}
+
+.password__group {
+
+    /* Esto significa que cualquier elemento secundario con una posición absolute en su interior tomará este contenedor como referencia para posicionarse. En este caso,
+    es útil para colocar el botón de alternancia (.toggle) dentro del contenedor dela contraseña en una posición específica. */
+    position: relative;
+}
+
+.toggle {
+
+    /* Define que el botón de alternancia se posicionará de forma absoluta en relación al contenedor .password__group. Esto permite mover el botón de forma precisa sin afectar la disposición de otros elementos. */
+    position: absolute;
+    right: 10px;
+    top: 50%;
+
+    /* Ajusta la posición vertical del botón para que esté completamente centrado en el eje Y, compensando la mitad de su altura. Esto corrige el desplazamiento causado portop: 50%, que solo centra el borde superior del elemento. */
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form__button {
+    width: 100%;
+    padding: .8rem;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    transition: background-color .3s;
+
+}
+
+.form__button:hover {
+    background-color: #333;
+}
+
+.progress {
+    margin: 1.25rem;
+}
+
+.progress__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.progress__circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    /* conic-gradient : Define un degradado en forma de cono que rota alrededor del centro del elemento. Se parece a una especie de "pastel" en el que cada segmento tiene un color específico. */
+
+    /* #000 0% 65%: El primer color, negro (#000), se usa desde el ángulo de inicio (0%) hasta el 65% del círculo. Esto forma un segmento que cubre el 65% de la circunferencia del círculo. */
+
+    /* #ddd 65% 100%: El segundo color, gris claro (#ddd), comienza en el 65% y va hasta el 100%, cubriendo el resto del círculo. */
+    background: conic-gradient(#000 0% 65%,
+        #535252 65% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.progress__text {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.progress_group {
+    background-color: #E5E5E5;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    width: 100%;
+    height: auto;
+
+}
+
+.progress__task {
+    margin: 1rem;
+}

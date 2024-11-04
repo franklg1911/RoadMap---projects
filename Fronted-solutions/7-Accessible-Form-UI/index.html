@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="form__group">
+          <label class="form__label" for="name">Full Name</label>
+          <input
+            type="text"
+            placeholder="What should we call you?"
+            id="name"
+            class="form__input"
+          />
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="email">Email</label>
+          <input
+            type="email"
+            value="john@doe.com"
+            id="email"
+            class="form__input form__input--error"
+          />
+          <p class="form__error">Email is alredy taken</p>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="password">Enter Password</label>
+          <div class="password__group">
+            <input
+              type="password"
+              placeholder="xxxxxxxxx"
+              id="password"
+              class="form__input"
+            />
+            <i class="far fa-eye toggle"></i>
+          </div>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="password">Confirm password</label>
+          <div class="password__group">
+            <input
+              type="password"
+              placeholder="xxxxxxxxx"
+              id="password"
+              class="form__input"
+            />
+            <i class="far fa-eye toggle"></i>
+          </div>
+        </div>
+
+        <button type="button" class="form__button">Update profile</button>
+      </form>
+
+      <div class="progress">
+        <div class="progress__profile">
+          <div class="progress__circle">65%</div>
+          <p class="progress__text">Profile Completeness</p>
+        </div>
+
+        <div class="progress_group">
+          <p class="progress__task"><del>Create Account</del></p>
+          <p class="progress__task"><del>Update Roadmap Progress</del></p>
+          <p class="progress__task"><del>Setup Public Profile</del></p>
+          <p class="progress__task">Complete your first project</p>
+          <p class="progress__task">Invite your Friends</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
