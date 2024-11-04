@@ -21,7 +21,8 @@ Este proyecto se centra en la creación de un navegador con una serie de links q
 
 ### Vista previa
 
-![Captura de pantalla 2024-11-01 173031](https://github.com/user-attachments/assets/e4da7093-02e7-4cff-b2f3-d0916dbf87fe)
+![{D688762E-B9E6-4C13-8872-B0DB4B863FF6}](https://github.com/user-attachments/assets/d49e6f7e-4a0d-4477-a540-e4fc2b40827f)
+
 
 ### Link
 
