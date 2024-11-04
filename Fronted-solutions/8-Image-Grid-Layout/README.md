@@ -22,7 +22,8 @@ Este proyecto se centra en la creación de una galería de imágenes organizadas
 
 ### Vista previa
 
-![Captura de pantalla 2024-11-01 173031](https://github.com/user-attachments/assets/e4da7093-02e7-4cff-b2f3-d0916dbf87fe)
+![{3F54A87B-A6A5-4B1D-AA64-D727245BC381}](https://github.com/user-attachments/assets/d4d98184-605f-44c2-bf25-350a842c39ec)
+
 
 ### Link
 
