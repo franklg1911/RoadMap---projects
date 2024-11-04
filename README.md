@@ -54,3 +54,8 @@ Proyectos centrados en la creación de interfaces de usuario con tecnologías co
 
    - **Descripción**: Este proyecto consiste en la creación de una galería de imagenes empleando técnicas de grillas realizados en **HTML y CSS**.
    - **Link**: [https://roadmap.sh/projects/image-grid](https://roadmap.sh/projects/image-grid)
+
+   **g. Tooltip UI:**
+
+   - **Descripción**: Este proyecto consiste en la creación de una serie de links que desvanecen y aparecen cuando pasas el cursor sobre ellas diseñado en **HTML y CSS**.
+   - **Link**: [https://roadmap.sh/projects/tooltip-ui](https://roadmap.sh/projects/tooltip-ui)
