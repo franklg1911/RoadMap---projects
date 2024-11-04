@@ -49,3 +49,8 @@ Proyectos centrados en la creación de interfaces de usuario con tecnologías co
 
    - **Descripción**: Este proyecto consiste en la creación de un formulario con diversos tipos de input y una lista de tareas realizados con **HTML y CSS**.
    - **Link**: [https://roadmap.sh/projects/accessible-form-ui](https://roadmap.sh/projects/accessible-form-ui)
+
+   **f. Image Grid Layout:**
+
+   - **Descripción**: Este proyecto consiste en la creación de una galería de imagenes empleando técnicas de grillas realizados en **HTML y CSS**.
+   - **Link**: [https://roadmap.sh/projects/image-grid](https://roadmap.sh/projects/image-grid)

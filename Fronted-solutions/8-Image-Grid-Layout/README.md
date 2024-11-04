@@ -1,6 +1,6 @@
-# ACCESIBLE FORM UI
+# IMAGE GRID LAYOUT
 
-Este proyecto se centra en la creación de un formulario básico con input de tipo texto, password y email. Asi mismo, contiene iconos y un gráfico de pastel creado con técnicas de estilización en CSS.
+Este proyecto se centra en la creación de una galería de imágenes organizadas con un patrón de cuadrícula basados en la maqueta proporcionada. Realizado con la técnica de diseño CSS Grid, que es esencial para crear diferentes modelos de web receptivos y flexibles.
 
 ### Tabla de contenido
 
@@ -12,8 +12,8 @@ Este proyecto se centra en la creación de un formulario básico con input de ti
 ### Características
 
 - Posicionamiento correcto y diseño atractivo en CSS.
-- Utilización de técnicas como Flexbox.
-- Importación de tipografías e iconos.
+- Utilización de técnicas como Grid.
+- Importación de imágenes.
 
 ### Tecnologías utilizadas
 
@@ -28,4 +28,4 @@ Este proyecto se centra en la creación de un formulario básico con input de ti
 
 Accede a la url del proyecto:
 
-- [https://roadmap.sh/projects/accessible-form-ui](https://roadmap.sh/projects/datepicker-ui)
+- [https://roadmap.sh/projects/image-grid](https://roadmap.sh/projects/image-grid)
