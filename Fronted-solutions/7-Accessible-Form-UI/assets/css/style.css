@@ -23,10 +23,11 @@ body {
     border-radius: 2rem;
     padding: 2rem;
     flex-wrap: wrap;
+    
 }
 
 .form__group {
-    margin: 1.25rem 0;
+    margin-bottom: 2rem;
 }
 
 .form__label {
@@ -46,8 +47,15 @@ body {
     border: 2px solid black;
 }
 
-input::placeholder {
+
+
+.form__input::placeholder {
     color: #CED4DA;
+}
+
+.form__input:focus {
+    border-color: #535252;
+    box-shadow: 0 0 0 3px rgba(1, 26, 53, 0.25);
 }
 
 .form__input--error {
